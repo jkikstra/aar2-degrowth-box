@@ -3,6 +3,7 @@
 renv::restore()
 library(here)
 source(here("data-raw", "kikstra2023", "for-reviewers_towardsdegrowth-v1", "utils.R"))
+install.packages("geomtextpath")
 load_pkgs()
 
 
@@ -45,9 +46,25 @@ li.raw.notnorm <- li.raw.notnorm %>% filter(!(variable%in%c("Primary Energy|Wind
       rename(value=`Primary Energy|Wind and Solar`)
   )
 
-li.norm <- li.raw.notnorm %>%
-  normalise_iamc_long(starting.year = normalization.year)
+li.gdp <- vroom(here("data-raw", "kikstra2023", "for-reviewers_towardsdegrowth-v1", "data", "li.csv")) %>%
+  add_degrowth_level() %>%
+  add_scenario_set_type() %>%
+  filter(
+    variable %in% c("GDP (PPP)","Population")
+  ) %>%
+  filter(
+    `Climate policy` == "GHG budget"
+  ) %>% to_per_capita()
 
+li.consumption <- vroom(here("data-raw", "kikstra2023", "for-reviewers_towardsdegrowth-v1", "data", "li.csv")) %>%
+  add_degrowth_level() %>%
+  add_scenario_set_type() %>%
+  filter(
+    variable %in% c("Consumption","Population")
+  ) %>%
+  filter(
+    `Climate policy` == "GHG budget"
+  ) %>% to_per_capita()
 
 # PROCESS ====
 baselines <-
@@ -58,7 +75,21 @@ baselines <-
   ) %>% ungroup() %>%
   select(variable,year,value, `GHG budget`) %>% rename(baseline=value)
 
+baselines.gdp <-
+  li.gdp %>%
+  filter(
+    year %in% upsc.yrs,
+    `Annual consumption per capita (at utility peak)`=="baseline"
+  ) %>% ungroup() %>%
+  select(variable,year,value, `GHG budget`) %>% rename(baseline=value)
 
+baselines.consumption <-
+  li.consumption %>%
+  filter(
+    year %in% upsc.yrs,
+    `Annual consumption per capita (at utility peak)`=="baseline"
+  ) %>% ungroup() %>%
+  select(variable,year,value, `GHG budget`) %>% rename(baseline=value)
 
 # PLOT ====
 p.scaleup.levels.40k <- ggplot(li.raw.notnorm %>%
@@ -111,7 +142,41 @@ p.scaleup.levels.40k <- ggplot(li.raw.notnorm %>%
 
 p.scaleup.levels.40k
 
+p.scaleup.levels.40k.gdp <- ggplot(li.gdp %>%
+                                 filter(
+                                   year %in% upsc.yrs,
+                                   `Annual consumption per capita (at utility peak)`=="40k"
+                                 ) %>% mutate(`Economic trend` = "Stopping GDP growth") %>%
+                                 bind_rows(baselines.gdp %>% rename(value=baseline) %>% mutate(`Economic trend` = "Continuing GDP growth")) %>%
+                                 filter(
+                                   `GHG budget`==budget.choice.highlight
+                                 ),
+                               aes(colour = `Economic trend`)) +
+  facet_grid(.~variable) +
+  geom_hline(yintercept = 0, colour="darkgrey") +
 
+  geom_textpath(
+    aes(x=year,
+        y=value,
+        label=`Economic trend`),
+    hjust=.75,
+    linewidth=2
+  ) +
+
+
+
+  scale_colour_manual(breaks = c("Continuing GDP growth", "Stopping GDP growth"), values = c("grey", "dodgerblue")) +
+  # scale_x_continuous(breaks = upsc.yrs) +
+  scale_x_continuous(breaks = seq(2020,2100,20)) +
+  scale_y_continuous(expand = c(0,0)) +
+  theme_classic() +
+  theme_hc() +
+  ylab("Thousand $ per year") + xlab(NULL) +
+  labs(title = "GDP (PPP) per capita") +
+  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1),
+        legend.position = "none")
+
+p.scaleup.levels.40k.gdp
 
 
 # SAVE ====
