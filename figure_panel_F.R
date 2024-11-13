@@ -110,19 +110,20 @@ baselines.consumption <-
   select(variable,year,value, `GHG budget`) %>% rename(baseline=value)
 
 # PLOT ====
-p.scaleup.levels.40k <- ggplot(li.raw.notnorm %>%
-                             filter(
-                               year %in% upsc.yrs,
-                               `Annual consumption per capita (at utility peak)`=="40k"
-                             ) %>% mutate(`Economic trend` = "Slowing GDP growth") %>%
-                             bind_rows(baselines %>% rename(value=baseline) %>% mutate(`Economic trend` = "Continuing GDP growth")) %>%
-                             filter(
-                               `GHG budget`==budget.choice.highlight
-                             ) %>%
+df.F.toprow <- li.raw.notnorm %>%
+  filter(
+    year %in% upsc.yrs,
+    `Annual consumption per capita (at utility peak)`=="40k"
+  ) %>% mutate(`Economic trend` = "Slowing GDP growth") %>%
+  bind_rows(baselines %>% rename(value=baseline) %>% mutate(`Economic trend` = "Continuing GDP growth")) %>%
+  filter(
+    `GHG budget`==budget.choice.highlight
+  ) %>%
 
-                               mutate_cond(variable == "Primary Energy|Biomass", variable = "Biomass") %>%
-                               mutate_cond(variable == "Primary Energy|Fossil", variable = "Fossil") %>%
-                               mutate_cond(variable == "Primary Energy|Wind and Solar", variable = "Wind and Solar"),
+  mutate_cond(variable == "Primary Energy|Biomass", variable = "Biomass") %>%
+  mutate_cond(variable == "Primary Energy|Fossil", variable = "Fossil") %>%
+  mutate_cond(variable == "Primary Energy|Wind and Solar", variable = "Wind and Solar")
+p.scaleup.levels.40k <- ggplot(df.F.toprow,
                            aes(colour = `Economic trend`)) +
   facet_grid(.~variable) +
   geom_hline(yintercept = 0, colour="darkgrey") +
@@ -146,7 +147,6 @@ p.scaleup.levels.40k <- ggplot(li.raw.notnorm %>%
 
 
   scale_colour_manual(breaks = c("Continuing GDP growth", "Slowing GDP growth"), values = c("grey", "dodgerblue")) +
-  # scale_x_continuous(breaks = upsc.yrs) +
   scale_x_continuous(breaks = seq(2020,2100,20)) +
   scale_y_continuous(limits = c(0,9), expand = c(0,0)) +
   theme_classic() +
@@ -160,39 +160,10 @@ p.scaleup.levels.40k <- ggplot(li.raw.notnorm %>%
 
 p.scaleup.levels.40k
 
-p.scaleup.levels.40k.gdp <- ggplot(li.gdp %>%
-                                 filter(
-                                   year %in% upsc.yrs,
-                                   `Annual consumption per capita (at utility peak)`=="40k"
-                                 ) %>% mutate(`Economic trend` = "Stopping GDP growth") %>%
-                                 bind_rows(baselines.gdp %>% rename(value=baseline) %>% mutate(`Economic trend` = "Continuing GDP growth")) %>%
-                                 filter(
-                                   `GHG budget`==budget.choice.highlight
-                                 ),
-                               aes(colour = `Economic trend`)) +
-  facet_grid(.~variable) +
-  geom_hline(yintercept = 0, colour="darkgrey") +
 
-  geom_textpath(
-    aes(x=year,
-        y=value,
-        label=`Economic trend`),
-    hjust=.75,
-    linewidth=2
-  ) +
-
-  scale_colour_manual(breaks = c("Continuing GDP growth", "Stopping GDP growth"), values = c("grey", "dodgerblue")) +
-  scale_x_continuous(breaks = seq(2020,2100,20)) +
-  scale_y_continuous(expand = c(0,0)) +
-  theme_classic() +
-  theme_hc() +
-  ylab("Thousand $ per year") + xlab(NULL) +
-  labs(title = "GDP (PPP) per capita") +
-  theme(axis.text.x = element_text(angle = 45, vjust = 1, hjust=1),
-        legend.position = "none")
-
-p.scaleup.levels.40k.gdp
-
+write_delim(x = df.F.toprow,
+            file = here("figure_panel_F", "data_panel_F_toprow.csv"),
+            delim = ",")
 
 # add a decoupling plot ===
 decl.years <- seq(2020,2100,10)
@@ -220,9 +191,9 @@ data.ghg.decoupling.40k.A <- li.emissions.gdp %>%
                 `Annual consumption per capita (at utility peak)`=="baseline"
               ) %>%
               mutate(`Economic trend` = "Continuing GDP growth"))
-
-p.ghg.decoupling.40k.A <- ggplot(data.ghg.decoupling.40k.A %>%
-                                   normalise_iamc_long(starting.year = 2020),
+df.F.bottomrow_left <- data.ghg.decoupling.40k.A %>%
+  normalise_iamc_long(starting.year = 2020)
+p.ghg.decoupling.40k.A <- ggplot(df.F.bottomrow_left,
                                aes(colour = `Economic trend`)) +
   geom_hline(yintercept = 0, colour="darkgrey") +
 
@@ -259,6 +230,9 @@ p.ghg.decoupling.40k.A <- ggplot(data.ghg.decoupling.40k.A %>%
 
 p.ghg.decoupling.40k.A
 
+write_delim(x = df.F.bottomrow_left,
+            file = here("figure_panel_F", "data_panel_F_bottomrow_left.csv"),
+            delim = ",")
 
 
 data.ghg.decoupling.40k.B <- data.ghg.decoupling.40k.A %>% select(-unit) %>%
@@ -299,6 +273,12 @@ p.ghg.decoupling.40k.B <- ggplot(data.ghg.decoupling.40k.B,
 
 p.ghg.decoupling.40k.B
 
+
+write_delim(x = data.ghg.decoupling.40k.B,
+            file = here("figure_panel_F", "data_panel_F_bottomrow_middle.csv"),
+            delim = ",")
+
+
 p.fe.decoupling.40k.B <- ggplot(data.fe.decoupling.40k.B,
                                  aes(colour = `Economic trend`)) +
   geom_hline(yintercept = 0, colour="darkgrey") +
@@ -324,6 +304,12 @@ p.fe.decoupling.40k.B <- ggplot(data.fe.decoupling.40k.B,
          color="none")
 
 p.fe.decoupling.40k.B
+
+
+write_delim(x = data.fe.decoupling.40k.B,
+            file = here("figure_panel_F", "data_panel_F_bottomrow_right.csv"),
+            delim = ",")
+
 
 p.decoupling <- ((p.scaleup.levels.40k) / (p.ghg.decoupling.40k.A | p.ghg.decoupling.40k.B | p.fe.decoupling.40k.B)) +
   plot_layout()

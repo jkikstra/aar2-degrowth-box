@@ -1,0 +1,145 @@
+country,iso3c,date,variable,value,type,crossed.percentage,average.higher.than.threshold
+Austria,AUT,1992,CO2 Emissions,2.2,Biophysical_Historical,0.8333333333333333,2.506666666666667
+Austria,AUT,1992,Phosphorus,3.83,Biophysical_Historical,0.8333333333333333,2.506666666666667
+Austria,AUT,1992,Nitrogen,3.07,Biophysical_Historical,0.8333333333333333,2.506666666666667
+Austria,AUT,1992,Land-System Change,0.95,Biophysical_Historical,0.8333333333333333,2.506666666666667
+Austria,AUT,1992,Ecological Footprint,2.44,Biophysical_Historical,0.8333333333333333,2.506666666666667
+Austria,AUT,1992,Material Footprint,2.55,Biophysical_Historical,0.8333333333333333,2.506666666666667
+Austria,AUT,1993,CO2 Emissions,2.25,Biophysical_Historical,0.8333333333333333,2.495
+Austria,AUT,1993,Phosphorus,3.72,Biophysical_Historical,0.8333333333333333,2.495
+Austria,AUT,1993,Nitrogen,3.07,Biophysical_Historical,0.8333333333333333,2.495
+Austria,AUT,1993,Land-System Change,0.97,Biophysical_Historical,0.8333333333333333,2.495
+Austria,AUT,1993,Ecological Footprint,2.48,Biophysical_Historical,0.8333333333333333,2.495
+Austria,AUT,1993,Material Footprint,2.48,Biophysical_Historical,0.8333333333333333,2.495
+Austria,AUT,1994,CO2 Emissions,2.3,Biophysical_Historical,0.8333333333333333,2.7016666666666667
+Austria,AUT,1994,Phosphorus,4.19,Biophysical_Historical,0.8333333333333333,2.7016666666666667
+Austria,AUT,1994,Nitrogen,3.47,Biophysical_Historical,0.8333333333333333,2.7016666666666667
+Austria,AUT,1994,Land-System Change,0.96,Biophysical_Historical,0.8333333333333333,2.7016666666666667
+Austria,AUT,1994,Ecological Footprint,2.6,Biophysical_Historical,0.8333333333333333,2.7016666666666667
+Austria,AUT,1994,Material Footprint,2.69,Biophysical_Historical,0.8333333333333333,2.7016666666666667
+Austria,AUT,1995,CO2 Emissions,2.35,Biophysical_Historical,0.8333333333333333,2.73
+Austria,AUT,1995,Phosphorus,4.12,Biophysical_Historical,0.8333333333333333,2.73
+Austria,AUT,1995,Nitrogen,3.51,Biophysical_Historical,0.8333333333333333,2.73
+Austria,AUT,1995,Land-System Change,0.95,Biophysical_Historical,0.8333333333333333,2.73
+Austria,AUT,1995,Ecological Footprint,2.73,Biophysical_Historical,0.8333333333333333,2.73
+Austria,AUT,1995,Material Footprint,2.72,Biophysical_Historical,0.8333333333333333,2.73
+Austria,AUT,1996,CO2 Emissions,2.4,Biophysical_Historical,0.8333333333333333,2.8666666666666667
+Austria,AUT,1996,Phosphorus,4.44,Biophysical_Historical,0.8333333333333333,2.8666666666666667
+Austria,AUT,1996,Nitrogen,3.68,Biophysical_Historical,0.8333333333333333,2.8666666666666667
+Austria,AUT,1996,Land-System Change,0.97,Biophysical_Historical,0.8333333333333333,2.8666666666666667
+Austria,AUT,1996,Ecological Footprint,3,Biophysical_Historical,0.8333333333333333,2.8666666666666667
+Austria,AUT,1996,Material Footprint,2.71,Biophysical_Historical,0.8333333333333333,2.8666666666666667
+Austria,AUT,1997,CO2 Emissions,2.45,Biophysical_Historical,0.8333333333333333,2.805
+Austria,AUT,1997,Phosphorus,4.17,Biophysical_Historical,0.8333333333333333,2.805
+Austria,AUT,1997,Nitrogen,3.56,Biophysical_Historical,0.8333333333333333,2.805
+Austria,AUT,1997,Land-System Change,0.99,Biophysical_Historical,0.8333333333333333,2.805
+Austria,AUT,1997,Ecological Footprint,2.89,Biophysical_Historical,0.8333333333333333,2.805
+Austria,AUT,1997,Material Footprint,2.77,Biophysical_Historical,0.8333333333333333,2.805
+Austria,AUT,1998,CO2 Emissions,2.51,Biophysical_Historical,0.8333333333333333,2.8833333333333333
+Austria,AUT,1998,Phosphorus,4.27,Biophysical_Historical,0.8333333333333333,2.8833333333333333
+Austria,AUT,1998,Nitrogen,3.71,Biophysical_Historical,0.8333333333333333,2.8833333333333333
+Austria,AUT,1998,Land-System Change,0.98,Biophysical_Historical,0.8333333333333333,2.8833333333333333
+Austria,AUT,1998,Ecological Footprint,2.84,Biophysical_Historical,0.8333333333333333,2.8833333333333333
+Austria,AUT,1998,Material Footprint,2.99,Biophysical_Historical,0.8333333333333333,2.8833333333333333
+Austria,AUT,1999,CO2 Emissions,2.56,Biophysical_Historical,0.8333333333333333,2.89
+Austria,AUT,1999,Phosphorus,4.17,Biophysical_Historical,0.8333333333333333,2.89
+Austria,AUT,1999,Nitrogen,3.77,Biophysical_Historical,0.8333333333333333,2.89
+Austria,AUT,1999,Land-System Change,0.98,Biophysical_Historical,0.8333333333333333,2.89
+Austria,AUT,1999,Ecological Footprint,2.89,Biophysical_Historical,0.8333333333333333,2.89
+Austria,AUT,1999,Material Footprint,2.97,Biophysical_Historical,0.8333333333333333,2.89
+Austria,AUT,2000,CO2 Emissions,2.61,Biophysical_Historical,0.8333333333333333,2.808333333333333
+Austria,AUT,2000,Phosphorus,3.76,Biophysical_Historical,0.8333333333333333,2.808333333333333
+Austria,AUT,2000,Nitrogen,3.58,Biophysical_Historical,0.8333333333333333,2.808333333333333
+Austria,AUT,2000,Land-System Change,0.96,Biophysical_Historical,0.8333333333333333,2.808333333333333
+Austria,AUT,2000,Ecological Footprint,2.94,Biophysical_Historical,0.8333333333333333,2.808333333333333
+Austria,AUT,2000,Material Footprint,3,Biophysical_Historical,0.8333333333333333,2.808333333333333
+Austria,AUT,2001,CO2 Emissions,2.66,Biophysical_Historical,0.8333333333333333,2.7666666666666666
+Austria,AUT,2001,Phosphorus,3.4,Biophysical_Historical,0.8333333333333333,2.7666666666666666
+Austria,AUT,2001,Nitrogen,3.49,Biophysical_Historical,0.8333333333333333,2.7666666666666666
+Austria,AUT,2001,Land-System Change,0.95,Biophysical_Historical,0.8333333333333333,2.7666666666666666
+Austria,AUT,2001,Ecological Footprint,3.07,Biophysical_Historical,0.8333333333333333,2.7666666666666666
+Austria,AUT,2001,Material Footprint,3.03,Biophysical_Historical,0.8333333333333333,2.7666666666666666
+Austria,AUT,2002,CO2 Emissions,2.71,Biophysical_Historical,1,2.7983333333333333
+Austria,AUT,2002,Phosphorus,3.48,Biophysical_Historical,1,2.7983333333333333
+Austria,AUT,2002,Nitrogen,3.49,Biophysical_Historical,1,2.7983333333333333
+Austria,AUT,2002,Land-System Change,1.01,Biophysical_Historical,1,2.7983333333333333
+Austria,AUT,2002,Ecological Footprint,3,Biophysical_Historical,1,2.7983333333333333
+Austria,AUT,2002,Material Footprint,3.1,Biophysical_Historical,1,2.7983333333333333
+Austria,AUT,2003,CO2 Emissions,2.77,Biophysical_Historical,1,2.93
+Austria,AUT,2003,Phosphorus,3.42,Biophysical_Historical,1,2.93
+Austria,AUT,2003,Nitrogen,3.71,Biophysical_Historical,1,2.93
+Austria,AUT,2003,Land-System Change,1.08,Biophysical_Historical,1,2.93
+Austria,AUT,2003,Ecological Footprint,3.22,Biophysical_Historical,1,2.93
+Austria,AUT,2003,Material Footprint,3.38,Biophysical_Historical,1,2.93
+Austria,AUT,2004,CO2 Emissions,2.83,Biophysical_Historical,1,3.038333333333333
+Austria,AUT,2004,Phosphorus,3.67,Biophysical_Historical,1,3.038333333333333
+Austria,AUT,2004,Nitrogen,3.75,Biophysical_Historical,1,3.038333333333333
+Austria,AUT,2004,Land-System Change,1,Biophysical_Historical,1,3.038333333333333
+Austria,AUT,2004,Ecological Footprint,3.29,Biophysical_Historical,1,3.038333333333333
+Austria,AUT,2004,Material Footprint,3.69,Biophysical_Historical,1,3.038333333333333
+Austria,AUT,2005,CO2 Emissions,2.89,Biophysical_Historical,1,2.973333333333333
+Austria,AUT,2005,Phosphorus,3.11,Biophysical_Historical,1,2.973333333333333
+Austria,AUT,2005,Nitrogen,3.59,Biophysical_Historical,1,2.973333333333333
+Austria,AUT,2005,Land-System Change,1.03,Biophysical_Historical,1,2.973333333333333
+Austria,AUT,2005,Ecological Footprint,3.39,Biophysical_Historical,1,2.973333333333333
+Austria,AUT,2005,Material Footprint,3.83,Biophysical_Historical,1,2.973333333333333
+Austria,AUT,2006,CO2 Emissions,2.95,Biophysical_Historical,1,3.038333333333333
+Austria,AUT,2006,Phosphorus,3.01,Biophysical_Historical,1,3.038333333333333
+Austria,AUT,2006,Nitrogen,3.58,Biophysical_Historical,1,3.038333333333333
+Austria,AUT,2006,Land-System Change,1.1,Biophysical_Historical,1,3.038333333333333
+Austria,AUT,2006,Ecological Footprint,3.59,Biophysical_Historical,1,3.038333333333333
+Austria,AUT,2006,Material Footprint,4,Biophysical_Historical,1,3.038333333333333
+Austria,AUT,2007,CO2 Emissions,3.01,Biophysical_Historical,1,3.163333333333333
+Austria,AUT,2007,Phosphorus,3.29,Biophysical_Historical,1,3.163333333333333
+Austria,AUT,2007,Nitrogen,3.74,Biophysical_Historical,1,3.163333333333333
+Austria,AUT,2007,Land-System Change,1.17,Biophysical_Historical,1,3.163333333333333
+Austria,AUT,2007,Ecological Footprint,3.57,Biophysical_Historical,1,3.163333333333333
+Austria,AUT,2007,Material Footprint,4.2,Biophysical_Historical,1,3.163333333333333
+Austria,AUT,2008,CO2 Emissions,3.06,Biophysical_Historical,1,2.9316666666666666
+Austria,AUT,2008,Phosphorus,1.98,Biophysical_Historical,1,2.9316666666666666
+Austria,AUT,2008,Nitrogen,3.39,Biophysical_Historical,1,2.9316666666666666
+Austria,AUT,2008,Land-System Change,1.2,Biophysical_Historical,1,2.9316666666666666
+Austria,AUT,2008,Ecological Footprint,3.61,Biophysical_Historical,1,2.9316666666666666
+Austria,AUT,2008,Material Footprint,4.35,Biophysical_Historical,1,2.9316666666666666
+Austria,AUT,2009,CO2 Emissions,3.12,Biophysical_Historical,1,2.7783333333333333
+Austria,AUT,2009,Phosphorus,1.71,Biophysical_Historical,1,2.7783333333333333
+Austria,AUT,2009,Nitrogen,3.2,Biophysical_Historical,1,2.7783333333333333
+Austria,AUT,2009,Land-System Change,1.13,Biophysical_Historical,1,2.7783333333333333
+Austria,AUT,2009,Ecological Footprint,3.34,Biophysical_Historical,1,2.7783333333333333
+Austria,AUT,2009,Material Footprint,4.17,Biophysical_Historical,1,2.7783333333333333
+Austria,AUT,2010,CO2 Emissions,3.17,Biophysical_Historical,1,2.9183333333333334
+Austria,AUT,2010,Phosphorus,2.12,Biophysical_Historical,1,2.9183333333333334
+Austria,AUT,2010,Nitrogen,3.33,Biophysical_Historical,1,2.9183333333333334
+Austria,AUT,2010,Land-System Change,1.16,Biophysical_Historical,1,2.9183333333333334
+Austria,AUT,2010,Ecological Footprint,3.56,Biophysical_Historical,1,2.9183333333333334
+Austria,AUT,2010,Material Footprint,4.17,Biophysical_Historical,1,2.9183333333333334
+Austria,AUT,2011,CO2 Emissions,3.23,Biophysical_Historical,1,3.005
+Austria,AUT,2011,Phosphorus,2.13,Biophysical_Historical,1,3.005
+Austria,AUT,2011,Nitrogen,3.37,Biophysical_Historical,1,3.005
+Austria,AUT,2011,Land-System Change,1.19,Biophysical_Historical,1,3.005
+Austria,AUT,2011,Ecological Footprint,3.74,Biophysical_Historical,1,3.005
+Austria,AUT,2011,Material Footprint,4.37,Biophysical_Historical,1,3.005
+Austria,AUT,2012,CO2 Emissions,3.28,Biophysical_Historical,1,2.985
+Austria,AUT,2012,Phosphorus,2.15,Biophysical_Historical,1,2.985
+Austria,AUT,2012,Nitrogen,3.41,Biophysical_Historical,1,2.985
+Austria,AUT,2012,Land-System Change,1.19,Biophysical_Historical,1,2.985
+Austria,AUT,2012,Ecological Footprint,3.49,Biophysical_Historical,1,2.985
+Austria,AUT,2012,Material Footprint,4.39,Biophysical_Historical,1,2.985
+Austria,AUT,2013,CO2 Emissions,3.34,Biophysical_Historical,1,3.02
+Austria,AUT,2013,Phosphorus,2.18,Biophysical_Historical,1,3.02
+Austria,AUT,2013,Nitrogen,3.45,Biophysical_Historical,1,3.02
+Austria,AUT,2013,Land-System Change,1.18,Biophysical_Historical,1,3.02
+Austria,AUT,2013,Ecological Footprint,3.51,Biophysical_Historical,1,3.02
+Austria,AUT,2013,Material Footprint,4.46,Biophysical_Historical,1,3.02
+Austria,AUT,2014,CO2 Emissions,3.39,Biophysical_Historical,1,3.046666666666667
+Austria,AUT,2014,Phosphorus,2.2,Biophysical_Historical,1,3.046666666666667
+Austria,AUT,2014,Nitrogen,3.49,Biophysical_Historical,1,3.046666666666667
+Austria,AUT,2014,Land-System Change,1.18,Biophysical_Historical,1,3.046666666666667
+Austria,AUT,2014,Ecological Footprint,3.43,Biophysical_Historical,1,3.046666666666667
+Austria,AUT,2014,Material Footprint,4.59,Biophysical_Historical,1,3.046666666666667
+Austria,AUT,2015,CO2 Emissions,3.44,Biophysical_Historical,1,3.1
+Austria,AUT,2015,Phosphorus,2.23,Biophysical_Historical,1,3.1
+Austria,AUT,2015,Nitrogen,3.54,Biophysical_Historical,1,3.1
+Austria,AUT,2015,Land-System Change,1.2,Biophysical_Historical,1,3.1
+Austria,AUT,2015,Ecological Footprint,3.5,Biophysical_Historical,1,3.1
+Austria,AUT,2015,Material Footprint,4.69,Biophysical_Historical,1,3.1

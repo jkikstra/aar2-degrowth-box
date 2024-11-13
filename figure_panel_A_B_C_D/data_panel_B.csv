@@ -1,0 +1,265 @@
+country,iso3c,date,variable,value,type,crossed.percentage,average.higher.than.threshold
+Austria,AUT,1992,Life Satisfaction,1.3,Social_Historical,1,1.185
+Austria,AUT,1992,Life Expectancy,1.04,Social_Historical,1,1.185
+Austria,AUT,1992,Nutrition,1.71,Social_Historical,1,1.185
+Austria,AUT,1992,Sanitation,1.05,Social_Historical,1,1.185
+Austria,AUT,1992,Income Poverty,1.05,Social_Historical,1,1.185
+Austria,AUT,1992,Access to Energy,1.05,Social_Historical,1,1.185
+Austria,AUT,1992,Education,1.11,Social_Historical,1,1.185
+Austria,AUT,1992,Social Support,NA,Social_Historical,1,1.185
+Austria,AUT,1992,Democratic Quality,1.34,Social_Historical,1,1.185
+Austria,AUT,1992,Equality,1.12,Social_Historical,1,1.185
+Austria,AUT,1992,Employment,1.08,Social_Historical,1,1.185
+Austria,AUT,1993,Life Satisfaction,1.31,Social_Historical,1,1.18
+Austria,AUT,1993,Life Expectancy,1.04,Social_Historical,1,1.18
+Austria,AUT,1993,Nutrition,1.68,Social_Historical,1,1.18
+Austria,AUT,1993,Sanitation,1.05,Social_Historical,1,1.18
+Austria,AUT,1993,Income Poverty,1.05,Social_Historical,1,1.18
+Austria,AUT,1993,Access to Energy,1.05,Social_Historical,1,1.18
+Austria,AUT,1993,Education,1.13,Social_Historical,1,1.18
+Austria,AUT,1993,Social Support,NA,Social_Historical,1,1.18
+Austria,AUT,1993,Democratic Quality,1.34,Social_Historical,1,1.18
+Austria,AUT,1993,Equality,1.1,Social_Historical,1,1.18
+Austria,AUT,1993,Employment,1.05,Social_Historical,1,1.18
+Austria,AUT,1994,Life Satisfaction,1.32,Social_Historical,1,1.187
+Austria,AUT,1994,Life Expectancy,1.05,Social_Historical,1,1.187
+Austria,AUT,1994,Nutrition,1.72,Social_Historical,1,1.187
+Austria,AUT,1994,Sanitation,1.05,Social_Historical,1,1.187
+Austria,AUT,1994,Income Poverty,1.05,Social_Historical,1,1.187
+Austria,AUT,1994,Access to Energy,1.05,Social_Historical,1,1.187
+Austria,AUT,1994,Education,1.13,Social_Historical,1,1.187
+Austria,AUT,1994,Social Support,NA,Social_Historical,1,1.187
+Austria,AUT,1994,Democratic Quality,1.34,Social_Historical,1,1.187
+Austria,AUT,1994,Equality,1.08,Social_Historical,1,1.187
+Austria,AUT,1994,Employment,1.08,Social_Historical,1,1.187
+Austria,AUT,1995,Life Satisfaction,1.33,Social_Historical,1,1.18
+Austria,AUT,1995,Life Expectancy,1.06,Social_Historical,1,1.18
+Austria,AUT,1995,Nutrition,1.68,Social_Historical,1,1.18
+Austria,AUT,1995,Sanitation,1.05,Social_Historical,1,1.18
+Austria,AUT,1995,Income Poverty,1.05,Social_Historical,1,1.18
+Austria,AUT,1995,Access to Energy,1.05,Social_Historical,1,1.18
+Austria,AUT,1995,Education,1.13,Social_Historical,1,1.18
+Austria,AUT,1995,Social Support,NA,Social_Historical,1,1.18
+Austria,AUT,1995,Democratic Quality,1.34,Social_Historical,1,1.18
+Austria,AUT,1995,Equality,1.06,Social_Historical,1,1.18
+Austria,AUT,1995,Employment,1.05,Social_Historical,1,1.18
+Austria,AUT,1996,Life Satisfaction,1.25,Social_Historical,1,1.173
+Austria,AUT,1996,Life Expectancy,1.06,Social_Historical,1,1.173
+Austria,AUT,1996,Nutrition,1.71,Social_Historical,1,1.173
+Austria,AUT,1996,Sanitation,1.05,Social_Historical,1,1.173
+Austria,AUT,1996,Income Poverty,1.05,Social_Historical,1,1.173
+Austria,AUT,1996,Access to Energy,1.05,Social_Historical,1,1.173
+Austria,AUT,1996,Education,1.12,Social_Historical,1,1.173
+Austria,AUT,1996,Social Support,NA,Social_Historical,1,1.173
+Austria,AUT,1996,Democratic Quality,1.34,Social_Historical,1,1.173
+Austria,AUT,1996,Equality,1.08,Social_Historical,1,1.173
+Austria,AUT,1996,Employment,1.02,Social_Historical,1,1.173
+Austria,AUT,1997,Life Satisfaction,1.17,Social_Historical,1,1.1600000000000001
+Austria,AUT,1997,Life Expectancy,1.07,Social_Historical,1,1.1600000000000001
+Austria,AUT,1997,Nutrition,1.67,Social_Historical,1,1.1600000000000001
+Austria,AUT,1997,Sanitation,1.05,Social_Historical,1,1.1600000000000001
+Austria,AUT,1997,Income Poverty,1.05,Social_Historical,1,1.1600000000000001
+Austria,AUT,1997,Access to Energy,1.05,Social_Historical,1,1.1600000000000001
+Austria,AUT,1997,Education,1.11,Social_Historical,1,1.1600000000000001
+Austria,AUT,1997,Social Support,NA,Social_Historical,1,1.1600000000000001
+Austria,AUT,1997,Democratic Quality,1.31,Social_Historical,1,1.1600000000000001
+Austria,AUT,1997,Equality,1.09,Social_Historical,1,1.1600000000000001
+Austria,AUT,1997,Employment,1.03,Social_Historical,1,1.1600000000000001
+Austria,AUT,1998,Life Satisfaction,1.23,Social_Historical,1,1.165
+Austria,AUT,1998,Life Expectancy,1.08,Social_Historical,1,1.165
+Austria,AUT,1998,Nutrition,1.76,Social_Historical,1,1.165
+Austria,AUT,1998,Sanitation,1.05,Social_Historical,1,1.165
+Austria,AUT,1998,Income Poverty,1.05,Social_Historical,1,1.165
+Austria,AUT,1998,Access to Energy,1.05,Social_Historical,1,1.165
+Austria,AUT,1998,Education,1.03,Social_Historical,1,1.165
+Austria,AUT,1998,Social Support,NA,Social_Historical,1,1.165
+Austria,AUT,1998,Democratic Quality,1.28,Social_Historical,1,1.165
+Austria,AUT,1998,Equality,1.1,Social_Historical,1,1.165
+Austria,AUT,1998,Employment,1.02,Social_Historical,1,1.165
+Austria,AUT,1999,Life Satisfaction,1.32,Social_Historical,1,1.1800000000000002
+Austria,AUT,1999,Life Expectancy,1.08,Social_Historical,1,1.1800000000000002
+Austria,AUT,1999,Nutrition,1.82,Social_Historical,1,1.1800000000000002
+Austria,AUT,1999,Sanitation,1.05,Social_Historical,1,1.1800000000000002
+Austria,AUT,1999,Income Poverty,1.05,Social_Historical,1,1.1800000000000002
+Austria,AUT,1999,Access to Energy,1.05,Social_Historical,1,1.1800000000000002
+Austria,AUT,1999,Education,1.04,Social_Historical,1,1.1800000000000002
+Austria,AUT,1999,Social Support,NA,Social_Historical,1,1.1800000000000002
+Austria,AUT,1999,Democratic Quality,1.25,Social_Historical,1,1.1800000000000002
+Austria,AUT,1999,Equality,1.1,Social_Historical,1,1.1800000000000002
+Austria,AUT,1999,Employment,1.04,Social_Historical,1,1.1800000000000002
+Austria,AUT,2000,Life Satisfaction,1.17,Social_Historical,1,1.167
+Austria,AUT,2000,Life Expectancy,1.09,Social_Historical,1,1.167
+Austria,AUT,2000,Nutrition,1.86,Social_Historical,1,1.167
+Austria,AUT,2000,Sanitation,1.05,Social_Historical,1,1.167
+Austria,AUT,2000,Income Poverty,1.05,Social_Historical,1,1.167
+Austria,AUT,2000,Access to Energy,1.05,Social_Historical,1,1.167
+Austria,AUT,2000,Education,1.04,Social_Historical,1,1.167
+Austria,AUT,2000,Social Support,NA,Social_Historical,1,1.167
+Austria,AUT,2000,Democratic Quality,1.22,Social_Historical,1,1.167
+Austria,AUT,2000,Equality,1.1,Social_Historical,1,1.167
+Austria,AUT,2000,Employment,1.04,Social_Historical,1,1.167
+Austria,AUT,2001,Life Satisfaction,1.29,Social_Historical,1,1.187
+Austria,AUT,2001,Life Expectancy,1.1,Social_Historical,1,1.187
+Austria,AUT,2001,Nutrition,1.86,Social_Historical,1,1.187
+Austria,AUT,2001,Sanitation,1.05,Social_Historical,1,1.187
+Austria,AUT,2001,Income Poverty,1.05,Social_Historical,1,1.187
+Austria,AUT,2001,Access to Energy,1.05,Social_Historical,1,1.187
+Austria,AUT,2001,Education,1.04,Social_Historical,1,1.187
+Austria,AUT,2001,Social Support,NA,Social_Historical,1,1.187
+Austria,AUT,2001,Democratic Quality,1.27,Social_Historical,1,1.187
+Austria,AUT,2001,Equality,1.1,Social_Historical,1,1.187
+Austria,AUT,2001,Employment,1.06,Social_Historical,1,1.187
+Austria,AUT,2002,Life Satisfaction,1.22,Social_Historical,1,1.1760000000000002
+Austria,AUT,2002,Life Expectancy,1.1,Social_Historical,1,1.1760000000000002
+Austria,AUT,2002,Nutrition,1.8,Social_Historical,1,1.1760000000000002
+Austria,AUT,2002,Sanitation,1.05,Social_Historical,1,1.1760000000000002
+Austria,AUT,2002,Income Poverty,1.05,Social_Historical,1,1.1760000000000002
+Austria,AUT,2002,Access to Energy,1.05,Social_Historical,1,1.1760000000000002
+Austria,AUT,2002,Education,1.04,Social_Historical,1,1.1760000000000002
+Austria,AUT,2002,Social Support,NA,Social_Historical,1,1.1760000000000002
+Austria,AUT,2002,Democratic Quality,1.31,Social_Historical,1,1.1760000000000002
+Austria,AUT,2002,Equality,1.1,Social_Historical,1,1.1760000000000002
+Austria,AUT,2002,Employment,1.04,Social_Historical,1,1.1760000000000002
+Austria,AUT,2003,Life Satisfaction,1.2,Social_Historical,1,1.165
+Austria,AUT,2003,Life Expectancy,1.1,Social_Historical,1,1.165
+Austria,AUT,2003,Nutrition,1.76,Social_Historical,1,1.165
+Austria,AUT,2003,Sanitation,1.05,Social_Historical,1,1.165
+Austria,AUT,2003,Income Poverty,1.05,Social_Historical,1,1.165
+Austria,AUT,2003,Access to Energy,1.05,Social_Historical,1,1.165
+Austria,AUT,2003,Education,1.05,Social_Historical,1,1.165
+Austria,AUT,2003,Social Support,NA,Social_Historical,1,1.165
+Austria,AUT,2003,Democratic Quality,1.25,Social_Historical,1,1.165
+Austria,AUT,2003,Equality,1.1,Social_Historical,1,1.165
+Austria,AUT,2003,Employment,1.04,Social_Historical,1,1.165
+Austria,AUT,2004,Life Satisfaction,1.19,Social_Historical,1,1.166
+Austria,AUT,2004,Life Expectancy,1.11,Social_Historical,1,1.166
+Austria,AUT,2004,Nutrition,1.76,Social_Historical,1,1.166
+Austria,AUT,2004,Sanitation,1.05,Social_Historical,1,1.166
+Austria,AUT,2004,Income Poverty,1.05,Social_Historical,1,1.166
+Austria,AUT,2004,Access to Energy,1.05,Social_Historical,1,1.166
+Austria,AUT,2004,Education,1.05,Social_Historical,1,1.166
+Austria,AUT,2004,Social Support,NA,Social_Historical,1,1.166
+Austria,AUT,2004,Democratic Quality,1.29,Social_Historical,1,1.166
+Austria,AUT,2004,Equality,1.1,Social_Historical,1,1.166
+Austria,AUT,2004,Employment,1.01,Social_Historical,1,1.166
+Austria,AUT,2005,Life Satisfaction,1.16,Social_Historical,1,1.1554545454545455
+Austria,AUT,2005,Life Expectancy,1.11,Social_Historical,1,1.1554545454545455
+Austria,AUT,2005,Nutrition,1.79,Social_Historical,1,1.1554545454545455
+Austria,AUT,2005,Sanitation,1.05,Social_Historical,1,1.1554545454545455
+Austria,AUT,2005,Income Poverty,1.05,Social_Historical,1,1.1554545454545455
+Austria,AUT,2005,Access to Energy,1.05,Social_Historical,1,1.1554545454545455
+Austria,AUT,2005,Education,1.06,Social_Historical,1,1.1554545454545455
+Austria,AUT,2005,Social Support,1.06,Social_Historical,1,1.1554545454545455
+Austria,AUT,2005,Democratic Quality,1.28,Social_Historical,1,1.1554545454545455
+Austria,AUT,2005,Equality,1.09,Social_Historical,1,1.1554545454545455
+Austria,AUT,2005,Employment,1.01,Social_Historical,1,1.1554545454545455
+Austria,AUT,2006,Life Satisfaction,1.16,Social_Historical,1,1.160909090909091
+Austria,AUT,2006,Life Expectancy,1.12,Social_Historical,1,1.160909090909091
+Austria,AUT,2006,Nutrition,1.85,Social_Historical,1,1.160909090909091
+Austria,AUT,2006,Sanitation,1.05,Social_Historical,1,1.160909090909091
+Austria,AUT,2006,Income Poverty,1.05,Social_Historical,1,1.160909090909091
+Austria,AUT,2006,Access to Energy,1.05,Social_Historical,1,1.160909090909091
+Austria,AUT,2006,Education,1.06,Social_Historical,1,1.160909090909091
+Austria,AUT,2006,Social Support,1.06,Social_Historical,1,1.160909090909091
+Austria,AUT,2006,Democratic Quality,1.27,Social_Historical,1,1.160909090909091
+Austria,AUT,2006,Equality,1.08,Social_Historical,1,1.160909090909091
+Austria,AUT,2006,Employment,1.02,Social_Historical,1,1.160909090909091
+Austria,AUT,2007,Life Satisfaction,1.17,Social_Historical,1,1.1672727272727272
+Austria,AUT,2007,Life Expectancy,1.13,Social_Historical,1,1.1672727272727272
+Austria,AUT,2007,Nutrition,1.87,Social_Historical,1,1.1672727272727272
+Austria,AUT,2007,Sanitation,1.05,Social_Historical,1,1.1672727272727272
+Austria,AUT,2007,Income Poverty,1.05,Social_Historical,1,1.1672727272727272
+Austria,AUT,2007,Access to Energy,1.05,Social_Historical,1,1.1672727272727272
+Austria,AUT,2007,Education,1.05,Social_Historical,1,1.1672727272727272
+Austria,AUT,2007,Social Support,1.06,Social_Historical,1,1.1672727272727272
+Austria,AUT,2007,Democratic Quality,1.31,Social_Historical,1,1.1672727272727272
+Austria,AUT,2007,Equality,1.06,Social_Historical,1,1.1672727272727272
+Austria,AUT,2007,Employment,1.04,Social_Historical,1,1.1672727272727272
+Austria,AUT,2008,Life Satisfaction,1.18,Social_Historical,1,1.1672727272727272
+Austria,AUT,2008,Life Expectancy,1.13,Social_Historical,1,1.1672727272727272
+Austria,AUT,2008,Nutrition,1.85,Social_Historical,1,1.1672727272727272
+Austria,AUT,2008,Sanitation,1.05,Social_Historical,1,1.1672727272727272
+Austria,AUT,2008,Income Poverty,1.04,Social_Historical,1,1.1672727272727272
+Austria,AUT,2008,Access to Energy,1.05,Social_Historical,1,1.1672727272727272
+Austria,AUT,2008,Education,1.05,Social_Historical,1,1.1672727272727272
+Austria,AUT,2008,Social Support,1.06,Social_Historical,1,1.1672727272727272
+Austria,AUT,2008,Democratic Quality,1.31,Social_Historical,1,1.1672727272727272
+Austria,AUT,2008,Equality,1.06,Social_Historical,1,1.1672727272727272
+Austria,AUT,2008,Employment,1.06,Social_Historical,1,1.1672727272727272
+Austria,AUT,2009,Life Satisfaction,1.19,Social_Historical,1,1.160909090909091
+Austria,AUT,2009,Life Expectancy,1.13,Social_Historical,1,1.160909090909091
+Austria,AUT,2009,Nutrition,1.86,Social_Historical,1,1.160909090909091
+Austria,AUT,2009,Sanitation,1.05,Social_Historical,1,1.160909090909091
+Austria,AUT,2009,Income Poverty,1.04,Social_Historical,1,1.160909090909091
+Austria,AUT,2009,Access to Energy,1.05,Social_Historical,1,1.160909090909091
+Austria,AUT,2009,Education,1.05,Social_Historical,1,1.160909090909091
+Austria,AUT,2009,Social Support,1.04,Social_Historical,1,1.160909090909091
+Austria,AUT,2009,Democratic Quality,1.29,Social_Historical,1,1.160909090909091
+Austria,AUT,2009,Equality,1.05,Social_Historical,1,1.160909090909091
+Austria,AUT,2009,Employment,1.02,Social_Historical,1,1.160909090909091
+Austria,AUT,2010,Life Satisfaction,1.21,Social_Historical,1,1.1645454545454546
+Austria,AUT,2010,Life Expectancy,1.14,Social_Historical,1,1.1645454545454546
+Austria,AUT,2010,Nutrition,1.86,Social_Historical,1,1.1645454545454546
+Austria,AUT,2010,Sanitation,1.05,Social_Historical,1,1.1645454545454546
+Austria,AUT,2010,Income Poverty,1.05,Social_Historical,1,1.1645454545454546
+Austria,AUT,2010,Access to Energy,1.05,Social_Historical,1,1.1645454545454546
+Austria,AUT,2010,Education,1.04,Social_Historical,1,1.1645454545454546
+Austria,AUT,2010,Social Support,1.02,Social_Historical,1,1.1645454545454546
+Austria,AUT,2010,Democratic Quality,1.29,Social_Historical,1,1.1645454545454546
+Austria,AUT,2010,Equality,1.06,Social_Historical,1,1.1645454545454546
+Austria,AUT,2010,Employment,1.04,Social_Historical,1,1.1645454545454546
+Austria,AUT,2011,Life Satisfaction,1.25,Social_Historical,1,1.1745454545454546
+Austria,AUT,2011,Life Expectancy,1.15,Social_Historical,1,1.1745454545454546
+Austria,AUT,2011,Nutrition,1.87,Social_Historical,1,1.1745454545454546
+Austria,AUT,2011,Sanitation,1.05,Social_Historical,1,1.1745454545454546
+Austria,AUT,2011,Income Poverty,1.04,Social_Historical,1,1.1745454545454546
+Austria,AUT,2011,Access to Energy,1.05,Social_Historical,1,1.1745454545454546
+Austria,AUT,2011,Education,1.03,Social_Historical,1,1.1745454545454546
+Austria,AUT,2011,Social Support,1.07,Social_Historical,1,1.1745454545454546
+Austria,AUT,2011,Democratic Quality,1.3,Social_Historical,1,1.1745454545454546
+Austria,AUT,2011,Equality,1.06,Social_Historical,1,1.1745454545454546
+Austria,AUT,2011,Employment,1.05,Social_Historical,1,1.1745454545454546
+Austria,AUT,2012,Life Satisfaction,1.24,Social_Historical,1,1.1754545454545455
+Austria,AUT,2012,Life Expectancy,1.15,Social_Historical,1,1.1754545454545455
+Austria,AUT,2012,Nutrition,1.87,Social_Historical,1,1.1754545454545455
+Austria,AUT,2012,Sanitation,1.05,Social_Historical,1,1.1754545454545455
+Austria,AUT,2012,Income Poverty,1.04,Social_Historical,1,1.1754545454545455
+Austria,AUT,2012,Access to Energy,1.05,Social_Historical,1,1.1754545454545455
+Austria,AUT,2012,Education,1.03,Social_Historical,1,1.1754545454545455
+Austria,AUT,2012,Social Support,1.07,Social_Historical,1,1.1754545454545455
+Austria,AUT,2012,Democratic Quality,1.33,Social_Historical,1,1.1754545454545455
+Austria,AUT,2012,Equality,1.06,Social_Historical,1,1.1754545454545455
+Austria,AUT,2012,Employment,1.04,Social_Historical,1,1.1754545454545455
+Austria,AUT,2013,Life Satisfaction,1.26,Social_Historical,1,1.1818181818181819
+Austria,AUT,2013,Life Expectancy,1.15,Social_Historical,1,1.1818181818181819
+Austria,AUT,2013,Nutrition,1.9,Social_Historical,1,1.1818181818181819
+Austria,AUT,2013,Sanitation,1.05,Social_Historical,1,1.1818181818181819
+Austria,AUT,2013,Income Poverty,1.05,Social_Historical,1,1.1818181818181819
+Austria,AUT,2013,Access to Energy,1.05,Social_Historical,1,1.1818181818181819
+Austria,AUT,2013,Education,1.05,Social_Historical,1,1.1818181818181819
+Austria,AUT,2013,Social Support,1.08,Social_Historical,1,1.1818181818181819
+Austria,AUT,2013,Democratic Quality,1.33,Social_Historical,1,1.1818181818181819
+Austria,AUT,2013,Equality,1.06,Social_Historical,1,1.1818181818181819
+Austria,AUT,2013,Employment,1.02,Social_Historical,1,1.1818181818181819
+Austria,AUT,2014,Life Satisfaction,1.12,Social_Historical,1,1.16
+Austria,AUT,2014,Life Expectancy,1.16,Social_Historical,1,1.16
+Austria,AUT,2014,Nutrition,1.9,Social_Historical,1,1.16
+Austria,AUT,2014,Sanitation,1.05,Social_Historical,1,1.16
+Austria,AUT,2014,Income Poverty,1.05,Social_Historical,1,1.16
+Austria,AUT,2014,Access to Energy,1.05,Social_Historical,1,1.16
+Austria,AUT,2014,Education,1.05,Social_Historical,1,1.16
+Austria,AUT,2014,Social Support,1,Social_Historical,1,1.16
+Austria,AUT,2014,Democratic Quality,1.31,Social_Historical,1,1.16
+Austria,AUT,2014,Equality,1.06,Social_Historical,1,1.16
+Austria,AUT,2014,Employment,1.01,Social_Historical,1,1.16
+Austria,AUT,2015,Life Satisfaction,1.15,Social_Historical,1,1.1645454545454546
+Austria,AUT,2015,Life Expectancy,1.15,Social_Historical,1,1.1645454545454546
+Austria,AUT,2015,Nutrition,1.9,Social_Historical,1,1.1645454545454546
+Austria,AUT,2015,Sanitation,1.05,Social_Historical,1,1.1645454545454546
+Austria,AUT,2015,Income Poverty,1.04,Social_Historical,1,1.1645454545454546
+Austria,AUT,2015,Access to Energy,1.05,Social_Historical,1,1.1645454545454546
+Austria,AUT,2015,Education,1.06,Social_Historical,1,1.1645454545454546
+Austria,AUT,2015,Social Support,1.05,Social_Historical,1,1.1645454545454546
+Austria,AUT,2015,Democratic Quality,1.29,Social_Historical,1,1.1645454545454546
+Austria,AUT,2015,Equality,1.06,Social_Historical,1,1.1645454545454546
+Austria,AUT,2015,Employment,1.01,Social_Historical,1,1.1645454545454546

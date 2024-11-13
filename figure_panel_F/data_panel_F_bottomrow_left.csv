@@ -1,0 +1,55 @@
+model,scenario,region,variable,unit,year,value,ssp,Annual consumption per capita (at utility peak),Scenario set,Climate policy,GHG budget,Economic trend
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,GDP (PPP),billion 2005USD,2020,1,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,GDP (PPP),billion 2005USD,2030,1.091634770614126,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,GDP (PPP),billion 2005USD,2040,1.1891782083661773,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,GDP (PPP),billion 2005USD,2050,1.2917031227874085,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,GDP (PPP),billion 2005USD,2060,1.3714413042017208,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,GDP (PPP),billion 2005USD,2070,1.431715032545729,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,GDP (PPP),billion 2005USD,2080,1.4695606619600738,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,GDP (PPP),billion 2005USD,2090,1.482680930412576,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,GDP (PPP),billion 2005USD,2100,1.518683009811206,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,GHG emissions,Mt CO2-equiv/yr,2020,1,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,GHG emissions,Mt CO2-equiv/yr,2030,0.25089607382709456,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,GHG emissions,Mt CO2-equiv/yr,2040,0.053932900015963375,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,GHG emissions,Mt CO2-equiv/yr,2050,2.752102145549678e-16,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,GHG emissions,Mt CO2-equiv/yr,2060,2.0120724346076037e-5,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,GHG emissions,Mt CO2-equiv/yr,2070,2.0120724346076037e-5,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,GHG emissions,Mt CO2-equiv/yr,2080,-6.254777603522013e-18,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,GHG emissions,Mt CO2-equiv/yr,2090,-1.2509555207044025e-17,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,GHG emissions,Mt CO2-equiv/yr,2100,-1.7870793152920022e-17,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Final Energy,EJ/yr,2020,1,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Final Energy,EJ/yr,2030,0.7439045395467755,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Final Energy,EJ/yr,2040,0.6798772299474978,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Final Energy,EJ/yr,2050,0.6864421195962228,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Final Energy,EJ/yr,2060,0.6592957450420445,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Final Energy,EJ/yr,2070,0.6581015596407703,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Final Energy,EJ/yr,2080,0.6335907091547057,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Final Energy,EJ/yr,2090,0.6106519659759693,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Final Energy,EJ/yr,2100,0.6182780074314997,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,GDP (PPP),billion 2005USD,2020,1,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,GDP (PPP),billion 2005USD,2030,1.4110340872465101,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,GDP (PPP),billion 2005USD,2040,1.8129742516323852,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,GDP (PPP),billion 2005USD,2050,2.196457082247255,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,GDP (PPP),billion 2005USD,2060,2.5693517586424184,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,GDP (PPP),billion 2005USD,2070,2.9267468902245652,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,GDP (PPP),billion 2005USD,2080,3.2416192394539047,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,GDP (PPP),billion 2005USD,2090,3.4987606581702386,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,GDP (PPP),billion 2005USD,2100,3.6879211291509315,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,GHG emissions,Mt CO2-equiv/yr,2020,1,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,GHG emissions,Mt CO2-equiv/yr,2030,0.2712298434894668,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,GHG emissions,Mt CO2-equiv/yr,2040,0.03359913035359155,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,GHG emissions,Mt CO2-equiv/yr,2050,8.93539657646002e-19,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,GHG emissions,Mt CO2-equiv/yr,2060,2.0120724346076037e-5,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,GHG emissions,Mt CO2-equiv/yr,2070,2.0120724346076037e-5,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,GHG emissions,Mt CO2-equiv/yr,2080,2.0120724346076037e-5,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,GHG emissions,Mt CO2-equiv/yr,2090,2.0120724346076037e-5,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,GHG emissions,Mt CO2-equiv/yr,2100,2.0120724346076037e-5,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,Final Energy,EJ/yr,2020,1,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,Final Energy,EJ/yr,2030,1.0088477737317876,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,Final Energy,EJ/yr,2040,1.083129910288502,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,Final Energy,EJ/yr,2050,1.123332314998794,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,Final Energy,EJ/yr,2060,1.1818114980637389,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,Final Energy,EJ/yr,2070,1.247881608115959,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,Final Energy,EJ/yr,2080,1.3098285326833126,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,Final Energy,EJ/yr,2090,1.3507678369378489,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth
+MESSAGEix-Australia,SSP2-baseline-4Gt,AUS,Final Energy,EJ/yr,2100,1.3625565643493693,SSP2,baseline,4Gt,GHG budget,4Gt,Continuing GDP growth

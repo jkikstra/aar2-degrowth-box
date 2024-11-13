@@ -60,9 +60,11 @@ panelAB.data.fanning.AUT.thresholdscrossed <- panel.ABD.data.fanning.AUT %>%
   summarise(crossed.percentage=sum(crossed/reported.thresholds,na.rm=T),
             average.higher.than.threshold = mean(value,na.rm=T))
 
+df.A.PB.trends <- panel.ABD.data.fanning.AUT %>%
+  left_join(panelAB.data.fanning.AUT.thresholdscrossed) %>%
+  filter(type=="Biophysical_Historical")
 p.A.PB.trends <- ggplot(
-  data = panel.ABD.data.fanning.AUT %>%
-    left_join(panelAB.data.fanning.AUT.thresholdscrossed),
+  data = df.A.PB.trends,
   aes(x=date, y=value)
 ) +
   geom_labelhline(yintercept = 1, label = "Limit",
@@ -70,7 +72,6 @@ p.A.PB.trends <- ggplot(
   annotate(geom = "rect", xmin = 1990, xmax = 2015, ymin = 0, ymax = 1,
            fill = "#00BA38", alpha = 0.2) +
   geom_line(
-    data = . %>% filter(type=="Biophysical_Historical"),
     aes(colour=variable, linetype=variable),
     linewidth = 1.5
   ) +
@@ -86,10 +87,17 @@ p.A.PB.trends <- ggplot(
   )
 p.A.PB.trends
 
+write_delim(x = df.A.PB.trends,
+            file = here("figure_panel_A_B_C_D", "data_panel_A.csv"),
+            delim = ",")
+
+
 # Panel B: 'past trends': social needs -----------------------------------------
+df.B.SP.trends <- panel.ABD.data.fanning.AUT %>%
+  left_join(panelAB.data.fanning.AUT.thresholdscrossed) %>%
+  filter(type=="Social_Historical")
 p.B.SP.trends <- ggplot(
-  data = panel.ABD.data.fanning.AUT %>%
-    left_join(panelAB.data.fanning.AUT.thresholdscrossed),
+  data = df.B.SP.trends,
   aes(x=date, y=value)
 ) +
   geom_labelhline(yintercept = 1, label = "Minimum",
@@ -97,7 +105,6 @@ p.B.SP.trends <- ggplot(
   annotate(geom = "rect", xmin = 1990, xmax = 2015, ymin = 1, ymax = 2,
            fill = "#00BA38", alpha = 0.2) +
   geom_line(
-    data = . %>% filter(type=="Social_Historical"),
     aes(colour=variable, linetype=variable),
     linewidth = 1.5
   ) +
@@ -112,6 +119,9 @@ p.B.SP.trends <- ggplot(
     # caption = "Data: Fanning et al. 2022"
   )
 p.B.SP.trends
+write_delim(x = df.B.SP.trends,
+            file = here("figure_panel_A_B_C_D", "data_panel_B.csv"),
+            delim = ",")
 
 # Panel C: '2D doughnut' / Austria compared to other countries -----------------
 panelC.data.fanning.ALL <- NULL
@@ -141,11 +151,11 @@ panelC.data.fanning.ALL.thresholdscrossed <- panelC.data.fanning.ALL %>%
   summarise(crossed.percentage=sum(crossed/reported.thresholds,na.rm=T),
             average.higher.than.threshold = mean(value,na.rm=T))
 
-
+df.C <- panelC.data.fanning.ALL.thresholdscrossed %>%
+  filter(date==2015) %>% select(-average.higher.than.threshold) %>%
+  pivot_wider(names_from = type, values_from = crossed.percentage)
 p.C.2D.Austria <- ggplot(
-  data = panelC.data.fanning.ALL.thresholdscrossed %>%
-    filter(date==2015) %>% select(-average.higher.than.threshold) %>%
-    pivot_wider(names_from = type, values_from = crossed.percentage)
+  data = df.C
 ) +
   geom_point(aes(x=Biophysical_Historical, y=Social_Historical),
              colour="grey",
@@ -160,13 +170,17 @@ p.C.2D.Austria <- ggplot(
   geom_text(aes(x=Biophysical_Historical, y=Social_Historical),
             data=. %>% filter(iso3c=="AUT"),
             colour="dodgerblue",
-            # size=3,
             fontface="bold",
             label = "Austria",
-            vjust = -0.3, hjust = 1.2) +
+            vjust = 1, hjust = 1.2) +
+
+  # Draw a green circle with a white center
+  geom_point(aes(x = 0, y = 1), color = "darkgreen", fill = "white", shape = 21, size = 8) +
+  # Add the text label at the specified position
+  annotate("text", x = 0, y = 0.95, color = "darkgreen", label = "Sustainability", hjust = -0.1, vjust = 1) +
+
 
   theme_classic() +
-  # theme_hc() +
   theme(legend.title=element_blank()) +
 
   ylab("Social thresholds achieved [%]") +
@@ -174,7 +188,9 @@ p.C.2D.Austria <- ggplot(
 
 p.C.2D.Austria
 
-
+write_delim(x = df.C,
+            file = here("figure_panel_A_B_C_D", "data_panel_C.csv"),
+            delim = ",")
 
 
 # Panel D : 'past trends': 'decoupling' ----------------------------------------
@@ -203,14 +219,21 @@ lt.options <- c("solid",
 bp.vars <- panel.ABD.data.fanning.AUT %>% filter(type=="Biophysical_Historical") %>% pull(variable) %>% unique() %>% sort()
 s.vars <- panel.ABD.data.fanning.AUT %>% filter(type=="Social_Historical") %>% pull(variable) %>% unique() %>% sort()
 
+df.D.GDP <- GDP.AUT %>% select(iso3c,year,value) %>% mutate(year=as.numeric(year)) %>% mutate(model="World Bank",
+                                                                                              region=iso3c,
+                                                                                              variable="GDP",
+                                                                                              unit = "PPP (constant 2017 international $)") %>%
+  expand_grid(., scenario=c("Biophysical", "Social")) %>%
+  normalise_iamc_long(starting.year = 1995) %>%
+  filter(year<=2015)
+df.D.Fanning <- panel.ABD.data.fanning.AUT %>% rename(model=iso3c,scenario=type,region=country,year=date) %>% mutate(unit="Relative to threshold") %>%
+  normalise_iamc_long(starting.year = 1995) %>% drop_na() %>%
+  mutate(scenario=ifelse(scenario=="Biophysical_Historical","Biophysical",
+                         ifelse(scenario=="Social_Historical","Social",
+                                scenario)))
 
 p.D.decoupling <- ggplot(
-  data = panel.ABD.data.fanning.AUT %>% rename(model=iso3c,scenario=type,region=country,year=date) %>% mutate(unit="Relative to threshold") %>%
-    normalise_iamc_long(starting.year = 1995) %>% drop_na() %>%
-    mutate(scenario=ifelse(scenario=="Biophysical_Historical","Biophysical",
-                           ifelse(scenario=="Social_Historical","Social",
-                           scenario))),
-    # left_join(GDP.AUT %>% select(iso3c,year,value) %>% rename(gdp=value), relationship = "many-to-many"),
+  data = df.D.Fanning,
   aes(x=year,y=value,group=variable)
 ) +
   facet_wrap(.~scenario) +
@@ -220,13 +243,7 @@ p.D.decoupling <- ggplot(
         colour=scenario)
   ) +
   geom_textpath(
-    data=GDP.AUT %>% select(iso3c,year,value) %>% mutate(year=as.numeric(year)) %>% mutate(model="World Bank",
-                                                         region=iso3c,
-                                                         variable="GDP",
-                                                         unit = "PPP (constant 2017 international $)") %>%
-      expand_grid(., scenario=c("Biophysical", "Social")) %>%
-      normalise_iamc_long(starting.year = 1995) %>%
-      filter(year<=2015),
+    data=df.D.GDP,
     aes(label=variable),
     linewidth=1.5,
     hjust=0.65
@@ -257,7 +274,12 @@ p.D.decoupling <- ggplot(
 
 p.D.decoupling
 
-
+write_delim(x = df.D.Fanning,
+            file = here("figure_panel_A_B_C_D", "data_panel_D_sustainability.csv"),
+            delim = ",")
+write_delim(x = df.D.GDP,
+            file = here("figure_panel_A_B_C_D", "data_panel_D_gdp.csv"),
+            delim = ",")
 
 
 # combine and save

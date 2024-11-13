@@ -1,5 +1,3 @@
-# a script hosting utility functions for the DLE data preparation for MESSAGEix
-# 07.12.2021, Jarmo Kikstra
 load_pkgs <- function() {
   library(vroom) # for reading CSV files
   library(readxl) # for reading Excel files

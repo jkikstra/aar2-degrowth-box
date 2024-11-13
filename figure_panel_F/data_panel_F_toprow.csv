@@ -1,0 +1,55 @@
+model,scenario,region,variable,unit,year,value,ssp,Annual consumption per capita (at utility peak),Scenario set,Climate policy,GHG budget,Economic trend
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Biomass,EJ/yr,2020,0.0944451482905078,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Biomass,EJ/yr,2030,0.15605568388566,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Biomass,EJ/yr,2040,0.247440743538368,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Biomass,EJ/yr,2050,0.0964356980864251,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Biomass,EJ/yr,2060,0.0397072854120471,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Biomass,EJ/yr,2070,0.0174867340836343,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Biomass,EJ/yr,2080,0.00305692998953044,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Biomass,EJ/yr,2090,0,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Biomass,EJ/yr,2100,0,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Fossil,EJ/yr,2020,5.57405398196066,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Fossil,EJ/yr,2030,2.23960923453014,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Fossil,EJ/yr,2040,1.03569569172386,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Fossil,EJ/yr,2050,0.591012151950219,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Fossil,EJ/yr,2060,0.540811609394822,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Fossil,EJ/yr,2070,0.53420049325777,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Fossil,EJ/yr,2080,0.521638625016496,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Fossil,EJ/yr,2090,0.513177476718934,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Fossil,EJ/yr,2100,0.513108654888948,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Wind and Solar,EJ/yr,2020,0.32276597874992397,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Wind and Solar,EJ/yr,2030,1.358706401549615,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Wind and Solar,EJ/yr,2040,1.959554516346294,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Wind and Solar,EJ/yr,2050,2.485572116131988,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Wind and Solar,EJ/yr,2060,2.4359810989758577,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Wind and Solar,EJ/yr,2070,2.4601126594624048,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Wind and Solar,EJ/yr,2080,2.3594823400453353,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Wind and Solar,EJ/yr,2090,2.25575233563732,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+MESSAGEix-Australia,SSP2-40k-4Gt,AUS,Wind and Solar,EJ/yr,2100,2.2925202940663247,SSP2,40k,4Gt,GHG budget,4Gt,Slowing GDP growth
+NA,NA,NA,Biomass,NA,2020,0.15153383209906,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Biomass,NA,2030,0.843342522027705,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Biomass,NA,2040,1.29613117736619,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Biomass,NA,2050,0.615327834452019,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Biomass,NA,2060,0.240611091886772,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Biomass,NA,2070,0.0966667468419582,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Biomass,NA,2080,0.0422725603117758,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Biomass,NA,2090,0.018085789860634,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Biomass,NA,2100,0,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Fossil,NA,2020,5.51844088872196,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Fossil,NA,2030,2.46133685024986,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Fossil,NA,2040,0.849243614999255,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Fossil,NA,2050,0.680496891897919,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Fossil,NA,2060,0.736657347417212,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Fossil,NA,2070,0.747410695909393,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Fossil,NA,2080,0.752373407832013,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Fossil,NA,2090,0.753781717513271,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Fossil,NA,2100,0.753864221560966,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Wind and Solar,NA,2020,0.32276597874992397,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Wind and Solar,NA,2030,1.815212514606335,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Wind and Solar,NA,2040,3.039586198286524,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Wind and Solar,NA,2050,4.068300455330738,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Wind and Solar,NA,2060,4.690067971033728,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Wind and Solar,NA,2070,5.2109941177633745,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Wind and Solar,NA,2080,5.585874519629196,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Wind and Solar,NA,2090,5.816000041567079,NA,NA,NA,NA,4Gt,Continuing GDP growth
+NA,NA,NA,Wind and Solar,NA,2100,5.887632215986165,NA,NA,NA,NA,4Gt,Continuing GDP growth
