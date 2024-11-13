@@ -1,0 +1,1 @@
+Supplementary Data 1 of Fanning, A.L., O’Neill, D.W., Hickel, J. and Roux, N., 2022. The social shortfall and ecological overshoot of nations. Nature sustainability, 5(1), pp.26-36.

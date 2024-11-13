@@ -1,0 +1,1 @@
+Figure originally created by Jarmo Kikstra, based on Li, M., Keyßer, L., Kikstra, J.S., Hickel, J., Brockway, P.E., Dai, N., Malik, A. and Lenzen, M., 2023. Integrated assessment modelling of degrowth scenarios for Australia. Economic Systems Research, pp.1-31.
